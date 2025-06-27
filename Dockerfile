@@ -19,6 +19,9 @@ COPY --from=builder /app/src ./src
 COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/prisma ./prisma
+COPY --from=builder /app/scripts ./src/scripts
+COPY docker-entrypoint.sh ./docker-entrypoint.sh
+RUN chmod +x ./docker-entrypoint.sh
 
 USER node
 
@@ -26,4 +29,4 @@ EXPOSE 3030
 
 ENV PORT=3030
 
-CMD ["node", "src/server.js"]
+ENTRYPOINT ["./docker-entrypoint.sh"]

@@ -5,7 +5,7 @@ const path = require('path');
 const prisma = new PrismaClient();
 
 // Read the products data from the mockup JSON file
-const productsDataPath = path.join(__dirname, '../../../ecommerce_front/front/public/mockup/products.json');
+const productsDataPath = path.join(__dirname, './mockup/products.json');
 
 async function seedDatabase() {
   try {
@@ -42,19 +42,7 @@ async function seedDatabase() {
     // Display summary
     const totalProducts = await prisma.product.count();
     console.log(`📊 Total products in database: ${totalProducts}`);
-    
-    // Display categories summary
-    const categories = await prisma.product.groupBy({
-      by: ['category'],
-      _count: {
-        category: true,
-      },
-    });
-    
-    console.log('\n📋 Products by category:');
-    categories.forEach(cat => {
-      console.log(`  ${cat.category}: ${cat._count.category} products`);
-    });
+  
     
     console.log('\n🎉 Database seeding completed successfully!');
     

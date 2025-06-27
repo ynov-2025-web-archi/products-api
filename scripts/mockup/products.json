@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "name": "Product A",
+        "description": "This is a description for Product A.",
+        "price": 29.99,
+        "category": "Electronics",
+        "imageUrl": "https://picsum.photos/id/1011/300/200"
+    },
+    {
+        "id": 2,
+        "name": "Product B",
+        "description": "This is a description for Product B.",
+        "price": 49.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://picsum.photos/id/1012/300/200"
+    },
+    {
+        "id": 3,
+        "name": "Product C",
+        "description": "This is a description for Product C.",
+        "price": 19.99,
+        "category": "Books",
+        "imageUrl": "https://picsum.photos/id/1013/300/200"
+    },
+    {
+        "id": 4,
+        "name": "Product D",
+        "description": "A great product for daily use.",
+        "price": 15.49,
+        "category": "Stationery",
+        "imageUrl": "https://picsum.photos/id/1014/300/200"
+    },
+    {
+        "id": 5,
+        "name": "Product E",
+        "description": "Top-rated gadget by users.",
+        "price": 89.99,
+        "category": "Gadgets",
+        "imageUrl": "https://picsum.photos/id/1015/300/200"
+    },
+    {
+        "id": 6,
+        "name": "Product F",
+        "description": "An ideal choice for book lovers.",
+        "price": 22.0,
+        "category": "Books",
+        "imageUrl": "https://picsum.photos/id/1016/300/200"
+    },
+    {
+        "id": 7,
+        "name": "Product G",
+        "description": "Reliable kitchen appliance.",
+        "price": 59.99,
+        "category": "Kitchen",
+        "imageUrl": "https://picsum.photos/id/1018/300/200"
+    },
+    {
+        "id": 8,
+        "name": "Product H",
+        "description": "Stylish furniture for your living room.",
+        "price": 199.0,
+        "category": "Furniture",
+        "imageUrl": "https://picsum.photos/id/1020/300/200"
+    },
+    {
+        "id": 9,
+        "name": "Product I",
+        "description": "Comfortable and durable shoes.",
+        "price": 79.99,
+        "category": "Fashion",
+        "imageUrl": "https://picsum.photos/id/1021/300/200"
+    },
+    {
+        "id": 10,
+        "name": "Product J",
+        "description": "High-performance sports gear.",
+        "price": 149.99,
+        "category": "Sports",
+        "imageUrl": "https://picsum.photos/id/1022/300/200"
+    },
+    {
+        "id": 11,
+        "name": "Product K",
+        "description": "Essential for your workspace.",
+        "price": 35.75,
+        "category": "Office",
+        "imageUrl": "https://picsum.photos/id/1023/300/200"
+    },
+    {
+        "id": 12,
+        "name": "Product L",
+        "description": "Eco-friendly and sustainable.",
+        "price": 12.95,
+        "category": "Eco",
+        "imageUrl": "https://picsum.photos/id/1024/300/200"
+    },
+    {
+        "id": 13,
+        "name": "Product M",
+        "description": "The latest in tech innovation.",
+        "price": 399.99,
+        "category": "Tech",
+        "imageUrl": "https://picsum.photos/id/1025/300/200"
+    },
+    {
+        "id": 14,
+        "name": "Product N",
+        "description": "Perfect for travelers.",
+        "price": 45.5,
+        "category": "Travel",
+        "imageUrl": "https://picsum.photos/id/1026/300/200"
+    },
+    {
+        "id": 15,
+        "name": "Product O",
+        "description": "Toys and games for all ages.",
+        "price": 24.99,
+        "category": "Toys",
+        "imageUrl": "https://picsum.photos/id/1027/300/200"
+    },
+    {
+        "id": 16,
+        "name": "Product P",
+        "description": "Beauty product with natural ingredients.",
+        "price": 39.99,
+        "category": "Beauty",
+        "imageUrl": "https://picsum.photos/id/1028/300/200"
+    },
+    {
+        "id": 17,
+        "name": "Product Q",
+        "description": "Premium audio experience.",
+        "price": 129.99,
+        "category": "Audio",
+        "imageUrl": "https://picsum.photos/id/1029/300/200"
+    },
+    {
+        "id": 19,
+        "name": "Product S",
+        "description": "Daily essentials for pets.",
+        "price": 13.49,
+        "category": "Pets",
+        "imageUrl": "https://picsum.photos/id/1031/300/200"
+    },
+    {
+        "id": 20,
+        "name": "Product T",
+        "description": "Innovative lighting solution.",
+        "price": 59.95,
+        "category": "Lighting",
+        "imageUrl": "https://picsum.photos/id/1032/300/200"
+    }
+]
