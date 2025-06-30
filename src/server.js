@@ -1,3 +1,4 @@
+const morgan = require('morgan');
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
@@ -5,6 +6,7 @@ require('dotenv').config();
 const productRoutes = require('./routes/productRoutes');
 
 const app = express();
+app.use(morgan('dev'));
 const PORT = process.env.PORT || 3000;
 
 // Middleware
@@ -27,6 +29,7 @@ app.use((err, req, res, next) => {
 
 // 404 handler
 app.use('*', (req, res) => {
+  console.log('❌ Unmatched route:', req.method, req.originalUrl);
   res.status(404).json({ error: 'Route not found' });
 });
 

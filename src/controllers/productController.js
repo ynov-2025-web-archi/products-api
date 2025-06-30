@@ -4,6 +4,7 @@ const prisma = new PrismaClient();
 
 // Get all products with pagination
 const getAllProducts = async (req, res) => {
+  console.log('🔥 /api/products hit');
   try {
     // Get pagination parameters from query string
     const page = parseInt(req.query.page) || 1;
